@@ -66,3 +66,61 @@ footer {
 .count-particles {
     display: none;
 }
+
+@media (max-width: 900px) {
+    main {
+        width: 100%;
+        padding: 0 10px;
+        padding-top: 10px;
+        background-color: #ffffff00;
+        box-shadow: 0px 0px #00000086;
+        position: sticky;
+        top: unset;
+        backdrop-filter: blur(0px);
+    }
+
+    #icon {
+        margin: 0 auto;
+        margin-top: 30px;
+        display: block;
+        width: 250px;
+        height: 250px;
+    }
+
+    #name {
+        margin: 0;
+        text-align: center;
+        display: block;
+        position: unset;
+        font-size: 60px;
+    }
+
+    #description {
+        margin: 0;
+        padding: 0 10px;
+        display: inline-block;
+        position: unset;
+        font-size: 18px;
+    }
+
+    #links {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 5px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    #links a {
+        display: inline-block;
+        color: #dadadacc;
+        text-decoration: none;
+        margin: 10px 5px 0 5px;
+        padding: 6px;
+        border: 2px solid #dadadacc;
+    }
+
+    footer {
+        position: unset;
+    }
+}

@@ -75,11 +75,11 @@ footer {
 @media (max-width: 900px) {
     main {
         width: 100%;
-        padding: 0;
+        padding: 0 10px;
         padding-top: 10px;
         background-color: #ffffff00;
         box-shadow: 0px 0px #00000086;
-        position: unset;
+        position: sticky;
         top: unset;
         backdrop-filter: blur(0px);
     }
@@ -127,6 +127,5 @@ footer {
 
     footer {
         position: unset;
-        /* bottom: 0; */
     }
 }
