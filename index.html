@@ -4,60 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="/images/nano-icon.png" type="image/x-con">
+    <link rel="shortcut icon" href="/images/nano-icon.webp" type="image/x-con">
     <title>Nano191225 Official</title>
 
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <link rel="stylesheet" href="/particles/index.css">
+    <link rel="stylesheet" href="./index.css">
 
     <style>
-        main {
-            width: 40%;
-            height: 400px;
-            top: calc(50% - 200px);
-            left: calc(50% - 20%);
-            /* position: fixed; */
 
-            position: absolute;
-            /* display: inline-block; */
-            /* margin: auto; */
-            padding: 10px;
-            background-color: #000000cb;
-            color : #dadadacc;
-
-            backdrop-filter: blur(3px);
-            border-radius: 10px;
-
-            box-shadow: tomato;
-            box-shadow: 12px 12px #00000086;
-        }
-
-        #profile {
-            /* float: right; */
-        }
-
-        #icon {
-            margin: 30px 0 0 30px;
-            width: 200px;
-            height: 200px;
-            border-radius: 50%;
-            border: 7px solid #dadadacc;
-        }
-
-        #name {
-            margin: 50px 0 0 50px;
-            display: inline-block;
-            position: absolute;
-            font-size: 86px;
-            /* letter-spacing: 4px; */
-            /* float: left; */
-        }
-
-        
-
-        .count-particles {
-            display: none;
-        }
     </style>
 </head>
 
@@ -69,16 +24,22 @@
 
     <main>
         <div id="profile">
-            <img id="icon" src="/images/nano-icon.png" alt="Nano">
+            <img id="icon" src="/images/nano-icon.webp" alt="Nano">
             <h1 id="name">Nano</h1>
+            <p id="description">マインクラフト統合版のアンチチートを開発しています。また、Unknownというコミュニティを運営しています。</p>
         </div>
-
+        <div id="links"></div>
+        <footer>
+            <p>Copyright © 2023 Nano191225. All Rights Reserved.</p>
+        </footer>
     </main>
 
-    
+
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib -->
     <script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
     <script src="/particles/index.js"></script>
+
+    <script src="./index.js"></script>
 </body>
 
 </html>
