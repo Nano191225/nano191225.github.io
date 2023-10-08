@@ -10,7 +10,7 @@ const links = [
         blank: true
     },
     {
-        text: "X",
+        text: "𝕏",
         url: "https://twitter.com/Nano191225",
         blank: true
     },
